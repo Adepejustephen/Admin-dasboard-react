@@ -1,0 +1,72 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 4rem;
+    transition: all .3s ease;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo_text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #F26680;
+    color: var(--deepPink);
+}
+
+.logo_text span {
+    color: aquamarine;
+}
+
+.menu {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.menu_item {
+   display: flex;
+   align-items: center;
+   gap: 1rem; 
+   height: 2.5rem;
+   margin-left: 2rem;
+   position: relative;
+   transition: all .3s ease;
+   font-size: .875rem;
+   border-radius: .7rem;
+   /* color: #f2f2f2; */
+}
+
+.menu_item:hover {
+    cursor: pointer;
+}
+
+.active {
+    background: var(--activeItem);
+    background: var(--deepPink);
+    margin-left: 0;
+    
+}
+
+.active::before {
+    content: '';
+    width: 8px;
+    height: 100%;
+    background-color: var(--pink);
+    margin-right: calc(1rem -8px);
+    /* position: absolute;
+    top: 0; */
+}
+
+.menu_item:last-child {
+    position: absolute;
+    bottom: 2.3rem;
+    width: 100%;
+}
