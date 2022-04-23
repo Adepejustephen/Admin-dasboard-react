@@ -12,7 +12,7 @@ const Sidebar = () => {
       {/* Logo */}
       <div className="logo">
         <span className="logo_text">
-          Beta<span>9</span>ja
+          Products<span>9</span>ja
         </span>
       </div>
       {/* Menu */}

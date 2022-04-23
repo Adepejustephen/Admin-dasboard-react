@@ -1,4 +1,6 @@
 import './App.css';
+import MainScreen from './components/MainScreen';
+import RightSide from './components/RightSide';
 import Sidebar from './components/Sidebar';
 
 function App() {
@@ -6,8 +8,8 @@ function App() {
     <div className="App">
       <div className="glass">
         <Sidebar />
-        <div></div>
-        <div></div>
+        <MainScreen/>
+        <RightSide/>
       </div>
     </div>
   );

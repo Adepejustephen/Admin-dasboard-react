@@ -1,0 +1,102 @@
+.compact_card {
+    display: flex;
+    flex: 1;
+    min-height: 7rem!important;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    border-radius: .7rem!important;
+    padding: 1rem;
+}
+
+.compact_card:hover {
+    box-shadow: none!important;
+}
+
+/* Radial Bar */
+
+.radial_bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 1rem;
+}
+.CircularProgressbar {
+    width: 4rem;
+    overflow: visible;
+}
+
+
+.CircularProgressbar-path {
+    stroke: white!important;
+    stroke-width: 12px!important;
+    filter: drop-shadow(2px 4px 6px #fff);
+}
+
+.CircularProgressbar-trail {
+    display: none;
+}
+.CircularProgressbar-text {
+    fill:  #fff!important;
+}
+
+.radial_bar>span {
+    font: 17px;
+    font: 700;
+}
+
+/* Detail */
+
+.detail {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.detail> span:nth-child(2) {
+    font-size: 22px;
+}
+.detail> span:nth-child(3) {
+    font-size: 12px;
+}
+
+/* Expandable Card */
+
+.expanded_card {
+    width: 60%;
+    position: absolute;
+    height: 70vh;
+    z-index: 99;
+    left: 13rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.expanded_icon {
+    align-self: flex-end;
+    cursor: pointer;
+    color: #fff;
+}
+
+.expanded_card >span:nth-of-type(1) {
+    font-size: 1.525rem;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0px 0px 15px #fff;
+}
+.expanded_card >span:nth-of-type(2) {
+    font-size: 1rem;
+    color: #f2f2f2;
+    font-weight: 700;
+}
+
+.chart_container {
+width: 70%;
+}
