@@ -1,0 +1,32 @@
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.h3:last-of-type {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .rightSide{
+      justify-content: flex-start;
+      
+      
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rightSide{
+      width: 100%;
+      margin-top: 0;
+      
+  }
+  .rightSide>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

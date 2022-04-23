@@ -10,7 +10,7 @@
 }
 
 .compact_card:hover {
-    box-shadow: none!important;
+    box-shadow: 1px 1px 1px #222!important;
 }
 
 /* Radial Bar */
@@ -99,4 +99,21 @@
 
 .chart_container {
 width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+  .expanded_card {
+      top: 2rem;
+      left: 6rem;
+      height: 45vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .expanded_card {
+      top: 8rem;
+      left: 15px;
+      height: 50%;
+      width: 80%;
+  }
 }
