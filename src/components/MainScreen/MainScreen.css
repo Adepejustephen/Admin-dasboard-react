@@ -13,6 +13,11 @@
 @media screen and (max-width: 768px) {
   .mainScreen {
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
+  }
+
+  .title {
+    font-size: .825rem;
+    margin-bottom: 15px;
   }
 }
